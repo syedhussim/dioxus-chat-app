@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Orbitron:wght@400..900&display=swap');
+
+* { box-sizing: border-box; }
+#main { padding:50px 0px; }
+
+html, body, #main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    justify-content: center;    
+    align-items: center;
+    font-family: "Open Sans";
+    background-color: #342f43;
+}
+h1 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 30px;
+    margin:0px;
+}
+a {
+    text-decoration: underline;
+    cursor: pointer;
+}
+footer {
+    display: flex;
+    width: 100%;
+    padding:20px;
+}
+
+input[type="text"],
+input[type="text"]:focus,
+input[type="text"]::placeholder {
+    color: #958bb4;
+}
+textarea {
+    width: 100%;
+    background: transparent;
+    border: 0px;
+    outline: none;
+    resize: none;
+    padding: 10px;
+    font-family: inherit;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+button:active {
+    transform: translateY(2px);
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 550px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    flex:1;
+}
+
+.message-header {
+    padding: 10px;
+    border-bottom: 2px solid #eef1f7;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.message-list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex: 1;
+    align-items: flex-start;
+    padding:20px;
+}
+.message-row {
+    display: flex;
+    margin-top:20px;;
+}
+.message-item {
+    background-color: #ebe8fd;
+    padding:10px;
+    border-radius: 10px;
+    color:#222;
+    margin-left: 10px;
+}
+.message-item label {
+    font-weight: 600;
+}
+
+.message-input-container {
+    display: flex;
+    flex: 1;
+    background: #eef1f7;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.btn-send {
+    max-width: 60px;
+    max-height: 50px;
+    margin-right: 10px;
+    background-color: #36bd6b;
+}
